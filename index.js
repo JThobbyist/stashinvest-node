@@ -122,7 +122,9 @@ class Stash {
             {
                 transaction: {
                     value: params.value,
-                    card_id: params.card_id
+                    card_id: params.card_id,
+                    autoStash:'NONE',
+                    account_id: credentials.uuid
                 }
             }
         );
